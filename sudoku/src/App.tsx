@@ -3,8 +3,8 @@ import BaseSudoku from './Components/BaseSudoku';
 
 function App() {
   return (
-  <div>
-    <div className="grid-container">
+  <div className='game-container'>
+    <div className="sudoku-container">
       <div className="outer-grid">
         <div className="outer-square">
           <div className="inner-grid">
@@ -285,6 +285,18 @@ function App() {
         </div>
       </div>
     </div>
+      <div className='right-container'>
+        <div className="right-square">1</div>
+        <div className="right-square">2</div>
+        <div className="right-square">3</div>
+        <div className="right-square">4</div>
+        <div className="right-square">5</div>
+        <div className="right-square">6</div>
+        <div className="right-square">7</div>
+        <div className="right-square">8</div>
+        <div className="right-square">9</div>
+      </div>
+
   </div>
   );
 }
