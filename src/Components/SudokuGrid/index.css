@@ -5,7 +5,6 @@
     height: calc(100vh - 20px);
     padding: 10px;
     width: calc(100vh * 1.2);
-
     border-right: 1px solid;
     border-image: linear-gradient(#696D7D, #a4a4a4, #696D7D) 1;
 }
@@ -18,17 +17,10 @@
     border-radius: 10px;
     padding: 10px;
 }
-
-.external-grid:nth-child(1), .external-grid:nth-child(2), .external-grid:nth-child(4), .external-grid:nth-child(5) {
+.external-grid:nth-child(1), .external-grid:nth-child(2), .external-grid:nth-child(4), .external-grid:nth-child(5), .external-grid:nth-child(7), .external-grid:nth-child(8) {
     border-right: 1px solid;
-    border-bottom: 1px solid;
     border-radius: 0;
     border-image: linear-gradient(#696D7D, #a4a4a4, #696D7D) 1
-}
-.external-grid:nth-child(7), .external-grid:nth-child(8){
-    border-right: 1px solid;
-    border-radius: 0;
-    border-image: linear-gradient(#696D7D, #a4a4a4, #696D7D) 1;
 }
 
 .square{
@@ -39,12 +31,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
     border: 1px solid black;
-    
     background-color: #B7B6C2;
 }
-
 
 .square:hover{
     background-color: #D1D5DE;
