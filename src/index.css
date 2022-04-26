@@ -12,3 +12,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container{
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: repeat(2, 50vh);
+  grid-template-areas: 
+    "Sudoku"
+    "Controller"
+    "Timer";
+}
+
+.game-container{
+  grid-area: Sudoku;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  height: calc(100vh - 20px);
+  max-width: calc(100vh * 1.2);
+  min-width: calc(100vh * 0.8);
+}
+
+.controller-container{
+  grid-area: Controller;
+  grid-column: 2/2;
+  grid-row: 1/2;
+  background-color: blueviolet;
+}
+
+.timer-container{
+  grid-area: Timer;
+  grid-column: 2/2;
+  grid-row: 2/2;
+  background-color:darkgray;
+}

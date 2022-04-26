@@ -4,7 +4,7 @@ import Timer from './Components/Timer';
 
 function App() {
   return (
-  <div>
+  <div className='container'>
     <SudokuGrid/>
     <Timer/>
     <GameController/>

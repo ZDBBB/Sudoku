@@ -2,7 +2,7 @@ import './index.css';
 
 function Timer(){
     return(
-    <div className=''>
+    <div className='timer-container'>
 
     </div>
     )

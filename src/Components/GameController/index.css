@@ -1,0 +1,10 @@
+.controller-container{
+    display: flex;
+}
+
+.block{
+    width: 80%;
+    align-self: center;
+    background-color: black;
+    border-radius: 15px;
+}
